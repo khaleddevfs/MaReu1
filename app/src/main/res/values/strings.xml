@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Maréu</string>
+    <string name="title">Créer une nouvelle réunion</string>
+    <string name="subject">Sujet de la réunion</string>
+    <string name="paricipants">les paricipants</string>
+    <string name="date">Déffinissez la Date</string>
+    <string name="time">Déffinissez l\'heure</string>
+    <string name="color">Choix de Couleur</string>
+    <string name="save">Enregister</string>
+</resources>

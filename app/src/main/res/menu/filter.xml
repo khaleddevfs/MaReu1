@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter"
+        android:title="Filter"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_filter_list_white"
+        tools:ignore="HardcodedText">
+
+        <menu>
+            <item android:id="@+id/filter_par_date"
+                android:title="Filtrer par Date"/>
+
+            <item android:id="@+id/filter_par_room"
+                android:title="Filtrer par lieu">
+                <menu>
+                    <item android:id="@+id/peach"
+                        android:title="Peach"/>
+
+                    <item android:id="@+id/mario"
+                        android:title="Mario"/>
+
+                    <item android:id="@+id/luigi"
+                        android:title="Luigi"/>
+
+                    <item android:id="@+id/jimmy"
+                        android:title="Jimmy"/>
+
+                    <item android:id="@+id/paul"
+                        android:title="Paul"/>
+
+                    <item android:id="@+id/mathey"
+                        android:title="Mathey"/>
+
+                    <item android:id="@+id/pavillon"
+                        android:title="Pavillon"/>
+                </menu>
+
+            </item>
+            <item android:id="@+id/no_filter"
+                android:title="Sans Filtre"/>
+        </menu>
+    </item>
+</menu>
